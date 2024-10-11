@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --background: #f6b7c1; /* Fundo */
+  --primary: #ffd7bd; /* Primária */
+  --secondary: #93c6bb; /* Secundária */
+  --tertiary: #bce7ac; /* Terciária */
+  --text: #252525; /* Texto Principal */
+  --text2: #7d7d7d; /* Texto Secundário */
+  --accent: #ffc107; /* Acento */
+  --success: #28a745; /* Sucesso */
+  --warning: #ffc107; /* Aviso */
+  --error: #c82333; /* Erro */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+body {
+  background-color: var(--background);
+  background-attachment: fixed;
+}
+
+.header-container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 9rem;
+  margin-left: 0.2rem;
+  margin-right: 0.6rem;
+  margin-top: -2.5rem;
+  gap: 1rem;
+  justify-content: right;
+
+}
+
+.header-tittle{
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0.5rem;
+  border-bottom: solid var(--text);
+}
+.header-tittle a{
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav-link{
+  display: block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--text);
+}
+
+.nav-link:hover{
+  font-style: italic;
+  color: var(--text2);
+}
+
+.nav2 {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.nav2-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text within each div */
+}
