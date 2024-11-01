@@ -17,6 +17,6 @@ console.log(parseInt(num1)+ parseInt(num2));
 */
 
 let nome2 = window.prompt("What is you name cunt?")
-document.write(`Olá ${nome2}. Seu nome possui ${nome2.length} caracteres`)
+document.write(`Olá ${nome2.trim}. Seu nome possui ${nome2.length} caracteres`)
 document.write(`Olá ${nome2.toUpperCase()}. Seu nome possui ${nome2.length} caracteres`)
 document.write(`Olá ${nome2.toLowerCase()}. Seu nome possui ${nome2.length} caracteres`)
