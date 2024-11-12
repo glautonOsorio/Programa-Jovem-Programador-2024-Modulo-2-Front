@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+:root {
+  --background: #f5f5dc; /* Fundo suave, lembrando um ambiente natural */
+  --primary: #ffB6B4; /* Cor Primária: rosa suave para botões e destaques */
+  --secondary: #ff64b4; /* Cor Secundária: um rosa mais vibrante para hover ou elementos chamativos */
+  --tertiary: #556B2F; /* Cor Terciária: verde escuro, ótimo para textos e elementos de destaque */
+  --quaternary: #006400; /* Cor Quaternária: um verde profundo para áreas como rodapé ou cabeçalho */
+  --text: #252525; /* Texto Principal: para garantir boa legibilidade */
+  --text2: #7d7d7d; /* Texto Secundário: um cinza suave para informações menos importantes */
+  --accent: #ffc107; /* Acento: amarelo vibrante para detalhes e destaques */
+  --success: #28a745; /* Verde para mensagens de sucesso, como confirmação de pedidos */
+  --warning: #ffc107; /* Amarelo para avisos ou mensagens importantes */
+  --error: #c82333; /* Vermelho para mensagens de erro */
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+body {
+  background-color: var(--background);
+  background-attachment: fixed;
+}
